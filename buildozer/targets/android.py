@@ -59,8 +59,8 @@ MSG_P4A_RECOMMENDED_NDK_ERROR = (
 class TargetAndroid(Target):
     targetname = 'android'
     p4a_directory_name = "python-for-android"
-    p4a_fork = 'kivy'
-    p4a_branch = 'master'
+    p4a_fork = 'davidsaldubehere'
+    p4a_branch = 'develop'
     p4a_apk_cmd = "apk --debug --bootstrap="
     p4a_recommended_ndk_version = None
     extra_p4a_args = ''
